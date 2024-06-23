@@ -39,8 +39,8 @@ MINIMALXY_CURRENT_YEAR = date.today().year
 # Author
 AUTHOR_INTRO = u'Alondra es una pequeña de 4 años y estudiante de preescolar, llena de creatividad y energía. Cada noche, su imaginación la lleva a mundos llenos de fantasía y aventuras, creando cuentos que reflejan su curiosidad. Además de su pasión por los cuentos, Alondra disfruta inmensamente de la música y el baile, siempre moviéndose al ritmo de una melodía.'
 # AUTHOR_DESCRIPTION = u'Estadístico | Data Scientist | Data Analyst | Data Engineer | Data Team Lead | DataOps Manager'
-AUTHOR_AVATAR = '/cuentos/theme/images/Alondra.jpeg'
-# AUTHOR_WEB = '#'
+AUTHOR_AVATAR = 'https://elhogardelbuho.com/cuentos/theme/images/Alondra.jpeg'
+AUTHOR_WEB = '#'
 
 # Services
 GOOGLE_TAG = 'G-KHB57NQZEG'
