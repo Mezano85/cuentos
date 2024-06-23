@@ -1,0 +1,84 @@
+    {% extends "base.html" %}
+
+    {% block title %}{{ article.title|striptags }} &ndash; {{ SITENAME }}{% endblock %}
+
+    {% block content %}
+
+    <br><br><br>
+
+    <article>
+      <header class="w3-container col-main"  style="text-align: center;">
+        <h1>{{ article.title }}</h1>
+        <div class="post-info">
+          <div class="w3-opacity w3-margin-right w3-margin-bottom" style="flex-grow: 1;">
+            <span style="font-size:14pt;"><time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%Y-%m-%d') }}</time> - <a href="{{ SITEURL }}/{{ article.category.url }}" title="All articles in category {{ article.category }}">{{ article.category }}</a></span>
+          </div>
+          {% if article.tags %}
+          <div>
+            {% for tag in article.tags %}
+            <span class="w3-tag w3-light-grey w3-text-grey w3-hover-blue" style="font-size:10pt; font-style: italic;">
+              <a href="{{ SITEURL }}/{{ tag.url }}" title="All articles with {{ tag.name.title() }} tag">#{{ tag }}</a>
+            </span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </header>
+
+
+      {% if article.headerimage %}
+      <div class="headerimage-article">
+        <img src="{{ article.headerimage }}" style="width: 100%;">
+        {% if article.headerimagecaption %}
+          <p class="caption">{{ article.headerimagecaption }}</p>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="col-main w3-container">
+        <section id="content" style="text-align: justify;">
+          {{article.content}}
+        </section>
+
+
+        <footer>
+
+
+          <br><br><br>
+
+          <p style="font-size:15pt; font-style: italic;">¿Te gustó la lectura?.... compartela!</p>
+          <div id="share" class="share">
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ (SITEURL + '/' + article.url)|urlencode }}&amp;t={{ (SITENAME + ': ' + article.title)|urlencode }}" target="_blank" class="w3-btn w3-indigo">
+              <i class="fa-brands fa-linkedin"></i> <span>LinkedIn</span>
+            </a>
+            <a href="http://www.facebook.com/sharer.php?u={{ (SITEURL + '/' + article.url)|urlencode }}&amp;t={{ (SITENAME + ': ' + article.title)|urlencode }}" target="_blank" class="w3-btn w3-blue">
+              <i class="fa-brands fa-facebook"></i> <span>Facebook</span>
+            </a>
+            <a href="http://twitter.com/share?url={{ (SITEURL + '/' + article.url)|urlencode }}&amp;text={{ (SITENAME + ': ' + article.title)|urlencode }}" target="_blank" class="w3-btn w3-black">
+              <i class="fa-brands fa-x-twitter"></i> <span>Twitter</span>
+            </a>
+          </div>
+
+          <br><br><br>
+
+          {% if article.related_posts %}
+          <div class="related-posts">
+            <h4>Related posts:</h4>
+            <ul>
+              {% for related_post in article.related_posts %}
+              <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+          {% if DISQUS_SITENAME %}
+          {% include "disqus.html" %}
+          <br><br><br>
+          {% endif %}
+
+        </footer>
+      </div>
+    </article>
+
+    {% endblock content %}
