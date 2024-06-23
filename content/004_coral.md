@@ -1,10 +1,10 @@
 Title: El Gran Espectáculo de Coral
-Date: 2024-06-22 22:00
-Modified: 2024-06-22 22:00
+Date: 2024-06-07 22:00
+Modified: 2024-06-07 22:00
 Category: Los Cuentos de Alondra
 Slug: el-gran-espectaculo-de-coral
 Authors: Alondra
-Summary: Coral nos enseña que seguir tus pasiones y compartirlas con los demás puede crear momentos llenos de magia y felicidad. En su mundo submarino, su amor por el baile y el arte ha traído alegría a todos sus amigos marinos. Que encuentres siempre la inspiración para seguir tus sueños y compartir tu alegría con los demás. ¡Buenas noches y dulces sueños, Alondra! 🌊🧜‍♀️✨
+Summary: Coral nos enseña que seguir tus pasiones y compartirlas con los demás puede crear momentos llenos de magia y felicidad. En su mundo submarino, su amor por el baile y el arte ha traído alegría a todos sus amigos marinos. Que encuentres siempre la inspiración para seguir tus sueños y compartir tu alegría con los demás. 🌊🧜‍♀️✨
 Lang: es
 
 ![El Gran Espectáculo de Coral](theme/images/4_coral.webp)
