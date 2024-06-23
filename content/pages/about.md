@@ -6,10 +6,6 @@ Authors: Francisco G. Mezano
 Summary: Acerca de este sitio
 
 
-# About / Sobre Nosotros
-
----
-
 ## Quiénes Somos
 
 ¡Bienvenidos a los cuentos de Alondra! Yo soy Francisco y este sitio es una creación especial que nace de la imaginación y creatividad de mi hija, Alondra. Cada noche, antes de dormir disfrutamos de un cuento único e inventado por ella. Estos cuentos son una ventana a su mundo lleno de fantasía y aventuras, donde todo es posible.
@@ -18,7 +14,7 @@ Summary: Acerca de este sitio
 
 ## Nuestra Historia
 
-La tradición comenzó cuando Alondra, con su amor por las historias y su gran imaginación, decidió que cada noche quería escuchar una historia nueva y especial. Inspirados por su entusiasmo, decidimos darle vida a sus ideas con la ayuda de la tecnología. Usando la inteligencia artificial de ChatGPT, creamos cuentos basados en los temas que Alondra elige cada noche. Además, generamos imágenes con DALL·E que ilustran maravillosamente cada historia, haciendo que sus relatos cobren vida de una manera mágica y visual.
+La tradición comenzó cuando Alondra, con su amor por las historias y su gran imaginación, decidió que cada noche quería escuchar una historia nueva y especial. Inspirados por su entusiasmo, decidimos darle vida a sus ideas con la ayuda de la tecnología. Usando la inteligencia artificial de ChatGPT, creamos cuentos basados en los temas que Alondra elige cada noche. Además, generamos imágenes con DALL·E que ilustran cada historia, haciendo que sus relatos cobren vida de una manera visual.
 
 ---
 
