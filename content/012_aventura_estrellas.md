@@ -4,7 +4,7 @@ Modified: 2024-06-17 22:00
 Category: Los Cuentos de Alondra
 Slug: una-aventura-entre-estrellas
 Authors: Alondra
-Summary: Clara nos enseña que con valentía, curiosidad y un corazón lleno de sueños, podemos descubrir un mundo lleno de maravillas y posibilidades. En su viaje hacia el Valle de las Maravillas, encontró que la verdadera magia está en nunca dejar de soñar y explorar. Que siempre encuentres la inspiración para seguir tus sueños y que cada paso te lleve a nuevas y emocionantes aventuras. 🌟🏞️✨
+Summary: Clara nos enseña que con valentía, curiosidad y un corazón lleno de sueños, podemos descubrir un mundo lleno de maravillas y posibilidades. En su viaje hacia el Valle de las Maravillas, encontró que la verdadera magia está en nunca dejar de soñar y explorar. Que siempre encuentres la inspiración para seguir tus sueños y que cada paso te lleve a nuevas y emocionantes aventuras. 🌟✨
 
 ![Una Aventura Entre Estrellas](theme/images/12_aventura_estrellas.webp)
 

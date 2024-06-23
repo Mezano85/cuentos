@@ -190,13 +190,13 @@ ul.social li a:hover {
 }
 
 #intro-description {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comic Neue';
   font-style: italic;
-  font-size: 11pt;
+  font-size: 13pt;
 }
 
 #intro img.avatar {
-  width: 150px;
+  width: 250px;
   max-width: 60%;
   margin: 0 50px;
   vertical-align: middle;
